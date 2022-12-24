@@ -7,6 +7,10 @@ html, body {
     margin: 0;
 }
 
+#header{
+    padding: 20px;
+}
+
 .logo p{
     color: rgb(18, 156, 110);
     font-size: 32px;
@@ -15,6 +19,8 @@ html, body {
 
 .main-menu-item{
     list-style: none;
+    display: inline;
+    margin: 0 10px;
 }
 
 .main-menu-item a{
@@ -37,7 +43,6 @@ html, body {
 }
 
 .banner-description{
-    border: 1px solid red;
 }
 .btn-info{
     background: rgba(18, 156, 110, 0.8);
@@ -85,4 +90,107 @@ html, body {
     width: 80px;
     height: 25px;
     font-size: 14px;
+}
+
+.img-wrap{
+    max-width: 100%;
+}
+.img-response{
+    width: 100%;
+}
+#main{
+    clear: both;
+}
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+.clear-both{
+    clear: both;
+}
+.col-1{
+    width: 8.3%;
+}
+.col-2{
+    width: 16.6%;
+}
+.col-3{
+    width: 24.9%;
+}
+.col-4{
+    width: 33.3%;
+}
+.col-5{
+    width: 100%/12;
+}
+.col-6{
+    width: 100%/12;
+}
+.col-4{
+    width: 33.3%;
+}
+.col-5{
+    width: 41.5%;
+}
+.col-6{
+    width: 49.8%;
+}
+.col-7{
+    width: 58.1%;
+}
+.col-8{
+    width: 66.4%;
+}
+.col-9{
+    width: 74.7%;
+}
+.col-10{
+    width: 83%;
+}
+.col-11{
+    width: 91.3%;
+}
+.col-12{
+    width: 100%;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute{
+    position: absolute;
+}
+.hearder-card-img{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 80%;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}
+.brand-item img{
+    float: left;
+}
+.brand-item p{
+    float: right;
+}
+
+.brand-item{
+    float: left;
+}
+.icon-md{
+    width: 30px;
+    height: 30px;
 }
